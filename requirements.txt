@@ -1,0 +1,19 @@
+# Project Cindy - Requirements 
+# python 3.11 <3
+# Last updated: 2025
+
+# Core Dependencies
+pymem>=1.10.0              # Memory reading/writing
+psutil>=5.9.0              # Process management
+Pillow>=9.0.0              # Image processing (splash screen) because totally needed :)
+pywin32>=305               # Windows API access
+
+# Packet Monitoring (Optional)
+scapy>=2.5.0               # Packet capture and analysis
+pydivert>=2.1.0            # Windows packet diversion
+
+# GUI Framework (Built-in with Python)
+# tkinter - Already included with Python installation
+
+# Build to .exe (Development only)
+# pyinstaller>=5.0          # Uncomment to build .exe files
